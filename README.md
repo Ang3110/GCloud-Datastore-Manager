@@ -112,7 +112,7 @@ python gcdm.py
 
 1. Launch the application by running `python gcdm.py`
 2. Choose authentication method:
-   - Option 1: Enter your GCP Project ID (uses Application Default Credentials) - **Note: This option is currently untested**
+   - Option 1: Enter your GCP Project ID (uses Application Default Credentials)
    - Option 2: Find available default key credential JSON files
 
 3. Once authenticated, you'll enter the namespace selection menu
