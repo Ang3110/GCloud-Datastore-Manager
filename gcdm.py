@@ -861,7 +861,7 @@ def main():
     """
     Main configuration function.
     Displays an initial menu with two options:
-      1) Enter your GCP Project ID (uses Application Default Credentials) [un-tested]
+      1) Enter your GCP Project ID (uses Application Default Credentials) 
       2) Find available default key credentials (uses the selected key)
     If option 2 is chosen, the key credential is used without prompting for a project ID.
     Then, a Datastore client is created and control passes to the main namespace menu.
@@ -869,7 +869,7 @@ def main():
     while True:
         clear_screen()
         print("=== GCloud Datastore Management ===")
-        print("1) Enter your GCP Project ID[un-tested]")
+        print("1) Enter your GCP Project ID")
         print("2) Find available default key credentials")
         print("CAB)/(Ctrl+C) to exit")
         option = safe_input("\nSelection: ").strip().upper()
