@@ -28,13 +28,13 @@ def clear_screen():
 
 def show_about():
     """
-    Displays an About page with information on GCloud Datastore Management,
+    Displays an About page with information on GCloud Datastore Manager,
     including a description of the DOCUMENT command.
     """
     clear_screen()
     about_text = (
-        "=== ABOUT GCloud Datastore Management ===\n\n"
-        "GCloud Datastore Management is a backend tool for managing your Google Cloud Datastore, by Angello.\n"
+        "=== ABOUT GCloud Datastore Manager ===\n\n"
+        "GCloud Datastore Manager is a backend tool for managing your Google Cloud Datastore, by Angello.\n"
         "It allows you to view, export, import, and delete datastore kinds and namespaces using a terminal-based menu system.\n"
         "Filter lists, create new namespaces or kinds, and perform bulk operations—all from a streamlined interface\n"
         "that maximizes your terminal's workspace.\n\n"
@@ -731,7 +731,7 @@ def main_menu_namespaces(client):
     
     while True:
         clear_screen()
-        print("=== GCloud Datastore Management ===\n")
+        print("=== GCloud Datastore Manager ===\n")
         
         # Show list of namespaces at the top
         for i, ns in enumerate(filtered_namespaces, start=1):
@@ -868,7 +868,7 @@ def main():
     """
     while True:
         clear_screen()
-        print("=== GCloud Datastore Management ===")
+        print("=== GCloud Datastore Manager ===")
         print("1) Enter your GCP Project ID")
         print("2) Find available default key credentials")
         print("CAB)/(Ctrl+C) to exit")
