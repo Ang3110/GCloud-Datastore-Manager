@@ -65,7 +65,7 @@ pip install -r requirements.txt
 4. Run the tool:
 
 ```bash
-python gcdm.py
+python3 gcdm.py
 ```
 
 ### Setting Up in Google Cloud Shell
