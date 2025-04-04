@@ -15,7 +15,7 @@ This document explains how to set up the Google Cloud Datastore Manager (GCDM) t
 
 1. Ensure you have Python 3.6 or higher installed on your system:
    ```bash
-   python --version
+   python3 --version
    ```
 
 2. Install the required dependencies:
@@ -81,7 +81,7 @@ This method is recommended for production or automated environments:
 After setting up authentication, you can run the program:
 
 ```bash
-python gcdm.py
+python3 gcdm.py
 ```
 
 When prompted, you have two options:
